@@ -1,4 +1,6 @@
-# High-Performance Backtester em Rust
+# ⚡ High-Performance Backtester em Rust
+
+# ⚡ High-Performance Backtester em Rust
 
 ![Build Status](https://img.shields.io/github/actions/workflow/status/galafis/rust-high-performance-backtester/rust.yml?branch=main&style=for-the-badge) ![License](https://img.shields.io/github/license/galafis/rust-high-performance-backtester?style=for-the-badge)
 
@@ -44,3 +46,36 @@ cargo run --release
 ## 📜 Licença (License)
 
 MIT License - Copyright (c) 2025 Gabriel Demetrios Lafis
+
+
+### Exemplo de Código
+
+```rust
+// Veja examples/simple_strategy.rs para código completo
+cargo run --release --example simple_strategy
+```
+
+---
+
+## 📚 Exemplos
+
+- [`simple_strategy.rs`](examples/simple_strategy.rs) - Exemplo prático de uso
+
+---
+
+## ✍️ Autor
+
+**Gabriel Demetrios Lafis**
+
+Cientista de Dados | Analista de Dados | BI/BA
+
+- 🔗 LinkedIn: [gabriel-demetrius](https://www.linkedin.com/in/gabriel-demetrius/)
+- 💻 GitHub: [@galafis](https://github.com/galafis)
+
+---
+
+<div align="center">
+
+Made with ❤️ and Rust 🦀
+
+</div>
