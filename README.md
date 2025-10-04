@@ -1,6 +1,6 @@
 # High-Performance Backtester em Rust
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/GabrielDemetrius/rust-high-performance-backtester/rust.yml?branch=main&style=for-the-badge) ![License](https://img.shields.io/github/license/GabrielDemetrius/rust-high-performance-backtester?style=for-the-badge)
+![Build Status](https://img.shields.io/github/actions/workflow/status/galafis/rust-high-performance-backtester/rust.yml?branch=main&style=for-the-badge) ![License](https://img.shields.io/github/license/galafis/rust-high-performance-backtester?style=for-the-badge)
 
 ---
 
@@ -29,7 +29,7 @@ A high-performance trading strategy backtesting framework, built in Rust for spe
 ## 🚀 Getting Started
 
 ```sh
-git clone https://github.com/GabrielDemetrius/rust-high-performance-backtester.git
+git clone https://github.com/galafis/rust-high-performance-backtester.git
 cd rust-high-performance-backtester
 cargo build --release
 cargo run --release

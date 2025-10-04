@@ -1,5 +1,4 @@
 use anyhow::Result;
-use high_performance_backtester::*;
 
 #[tokio::main]
 async fn main() -> Result<()> {
