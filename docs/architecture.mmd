@@ -1,0 +1,38 @@
+graph TD
+    subgraph Data Layer
+        A[Historical Data] --> B{Data Manager}
+        B --> C[OHLCV Bars]
+        B --> D[Tick Data]
+    end
+
+    subgraph Strategy Layer
+        E[Strategy Definition] --> F{Strategy Engine}
+        C --> F
+        D --> F
+    end
+
+    subgraph Execution Layer
+        F --> G{Event Processor}
+        G --> H[Order Generator]
+        H --> I[Execution Simulator]
+        I --> J[Fill Model]
+    end
+
+    subgraph Analytics Layer
+        J --> K{Performance Calculator}
+        K --> L[Sharpe Ratio]
+        K --> M[Max Drawdown]
+        K --> N[Win Rate]
+        
+        L --> O[Report Generator]
+        M --> O
+        N --> O
+    end
+
+    subgraph Optimization
+        O --> P{Optimizer}
+        P --> Q[Grid Search]
+        P --> R[Genetic Algorithm]
+        R --> F
+        Q --> F
+    end

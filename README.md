@@ -13,6 +13,9 @@ Um framework de backtesting de estratégias de trading de alta performance, cons
 - **Métricas de Performance:** Cálculo de Sharpe Ratio, Sortino, Max Drawdown, etc.
 - **Otimização de Parâmetros:** Suporte para otimização de estratégias.
 
+### Arquitetura
+![Arquitetura do High-Performance Backtester](docs/architecture.png)
+
 ---
 
 ## 🇺🇸 Overview (English)
@@ -23,6 +26,9 @@ A high-performance trading strategy backtesting framework, built in Rust for spe
 - **Event-Driven Engine:** Event-oriented architecture for realistic simulations.
 - **Performance Metrics:** Calculation of Sharpe Ratio, Sortino, Max Drawdown, etc.
 - **Parameter Optimization:** Support for strategy optimization.
+
+### Architecture
+![High-Performance Backtester Architecture](docs/architecture.png)
 
 ---
 
