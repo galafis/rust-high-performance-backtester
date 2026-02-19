@@ -39,6 +39,20 @@
 
 O **High-Performance Backtester** é um framework de backtesting de estratégias de trading desenvolvido em Rust para máxima velocidade e precisão. Permite simular estratégias com dados históricos e avaliar sua performance antes de colocar capital real em risco.
 
+```mermaid
+flowchart LR
+    A[Historical Data\nOHLCV Bars] --> B[Strategy Definition\nCustom Rules]
+    B --> C[Backtesting Engine\nEvent-Driven]
+    C --> D[Performance Metrics\nSharpe / Drawdown]
+    D --> E[Report\nEquity Curve / Analysis]
+
+    style A fill:#e65100,color:#fff
+    style B fill:#1a73e8,color:#fff
+    style C fill:#000000,color:#fff
+    style D fill:#0f9d58,color:#fff
+    style E fill:#7b1fa2,color:#fff
+```
+
 ### O que é Backtesting?
 
 Backtesting é o processo de testar uma estratégia de trading usando dados históricos para avaliar como ela teria performado no passado. É essencial para:
